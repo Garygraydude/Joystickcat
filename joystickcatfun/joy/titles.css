@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    color: black;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+  }
+  
+  .logo img {
+    width: 50px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .profile-icon img {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+  }
+  
+  /* Line */
+  .line {
+    border: 1px solid black;
+    width: 90%;
+    margin: 0 auto 20px;
+  }
+  
+  /* Titles Section */
+  .titles-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 50px;
+  }
+  
+  .game-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .game-card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 2px solid black;
+  }
+  
+  .game-info h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .game-info p {
+    font-size: 16px;
+    margin: 5px 0;
+    border-bottom: 2px solid black;
+    display: inline-block;
+    padding-bottom: 3px;
+  }
+  
