@@ -10,7 +10,7 @@
     color: black;
   }
   
-  /* Header */
+ 
   header {
     display: flex;
     justify-content: space-between;
@@ -45,14 +45,14 @@
     border: 2px solid black;
   }
   
-  /* Line */
+ 
   .line {
     border: 1px solid black;
     width: 90%;
     margin: 0 auto 20px;
   }
   
-  /* Titles Section */
+  
   .titles-container {
     width: 80%;
     margin: 0 auto;
@@ -90,30 +90,29 @@
   
 
   .contact-section {
-    width: 80%;
-    margin: 40px auto;
-    padding: 20px;
-    text-align: center;
-    border-top: 2px solid black;
-  }
-  
-  .contact-section h2 {
-    font-size: 28px;
-    margin-bottom: 10px;
-  }
-  
-  .contact-section p {
-    font-size: 18px;
-    margin-bottom: 8px;
-  }
-  
-  .contact-info a {
-    color: black;
-    text-decoration: underline;
-  }
-  
-  .contact-info a:hover {
-    color: #555;
-  }
-  
-  
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid black;
+}
+
+.contact-section h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.contact-section p {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.contact-info a {
+  color: black;
+  text-decoration: underline;
+}
+
+.contact-info a:hover {
+  color: #555;
+}
+
