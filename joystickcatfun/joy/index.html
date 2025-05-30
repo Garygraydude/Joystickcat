@@ -30,13 +30,50 @@
 
   <hr class="line">
 
-
-  <div class="slider">
-    <button id="prev">&#9664;</button>
-    <div class="game-display">
-      <img src="img/horizon.png" alt="Game Preview" id="gameImage">
+  <div class="home-description">
+    <h2>Welcome to JoystickCat!</h2>
+    <p>
+             Our mission is to empower indie gaming by creating unique and accessible games for
+        everyone who loves storytelling, creativity, and challenges.
+    </p>
+  </div>
+  <div class="carousel">
+    <button class="carousel-btn" id="prev">&#9664;</button>
+  
+    <div class="carousel-track-container">
+      <ul class="carousel-track">
+        <li class="carousel-slide current-slide">
+          <img src="img/horizon.png" alt="Game 1">
+        </li>
+        <li class="carousel-slide">
+          <img src="img/TheSummit.jpg" alt="Game 2">
+        </li>
+        <li class="carousel-slide">
+          <img src="img/TheSummit2.jpg" alt="Game 3">
+        </li>
+      </ul>
     </div>
-    <button id="next">&#9654;</button>
+  
+    <button class="carousel-btn" id="next">&#9654;</button>
+  </div>
+  
+  <div class="carousel-nav">
+    <button class="carousel-indicator current-slide"></button>
+    <button class="carousel-indicator"></button>
+    <button class="carousel-indicator"></button>
+  </div>
+  
+  <div class="contact-section">
+    <h2>Contact Us</h2>
+    <p>Have questions, feedback, or just want to say hello? Reach out to us!</p>
+  
+    <div class="contact-info">
+      <p>📧 Email: <a href="mailto:contact@joystickcat.com">contact@joystickcat.com</a></p>
+      <p>🐱 Instagram: <a href="#">@JoystickCat</a></p>
+      <p>💻 GitHub: <a href="#">github.com/JoystickCat</a></p>
+    </div>
+  </div>
+    
   </div>
 
   <script src="script.js"></script>

@@ -52,4 +52,33 @@
   nav a:hover {
     text-decoration: underline;
   }
+
+  .contact-section {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid black;
+  }
+  
+  .contact-section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-section p {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .contact-info a {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  .contact-info a:hover {
+    color: #555;
+  }
+  
+  
   
